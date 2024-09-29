@@ -3,3 +3,56 @@
     src: url(./font/norse-bold-webfont.woff2);
 }
 
+:root {
+    --bk-outline-color: #E5E7EB;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+#background {
+    width: 40vw;
+    height: 100vh;
+}
+
+.right {
+    width: 60vw;
+    height: 100vh;
+    background-color: red; /*remove!!*/
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 30vh;
+    background-color: var(--bk-outline-color);
+    padding: 30px 10px 5px 5px;
+}
+
+.body {
+    height: 30vh;
+    background-color: white;
+}
+
+.right-footer {
+    height: 40vh;
+    background-color: var(--bk-outline-color);
+
+}
+
+.title-case {
+    font-size: 8px;
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
