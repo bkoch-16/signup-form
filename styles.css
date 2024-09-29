@@ -65,7 +65,12 @@ input {
 }
 
 input:invalid {
-    outline: 2px red;
+    border-color: red;
+}
+
+input:focus {
+    border-color: lightblue;
+    box-shadow: #E5E7EB;
 }
 
 .right-footer {
