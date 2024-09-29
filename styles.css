@@ -45,11 +45,22 @@ body {
 
 fieldset {
     display: flex;
+    border: none;
 }
 
 .holder {
     display: flex;
     flex-direction: column;
+    margin: 10px 15px 5px;
+
+}
+
+input {
+    outline: 2px var(--bk-outline-color);
+}
+
+input:invalid {
+    outline: 2px red;
 }
 
 .right-footer {
@@ -66,3 +77,4 @@ fieldset {
 em {
     font-style: italic;
 }
+
