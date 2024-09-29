@@ -40,6 +40,16 @@ body {
 .body {
     height: 30vh;
     background-color: white;
+    display: flex;
+}
+
+fieldset {
+    display: flex;
+}
+
+.holder {
+    display: flex;
+    flex-direction: column;
 }
 
 .right-footer {
@@ -49,7 +59,7 @@ body {
 }
 
 .title-case {
-    font-size: 8px;
+    font-size: 24px;
     font-weight: bold;
 }
 
