@@ -5,10 +5,12 @@
 
 :root {
     --bk-outline-color: #E5E7EB;
+    --nature-color: #596D48;
 }
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
@@ -34,24 +36,27 @@ body {
 .header {
     height: 30vh;
     background-color: var(--bk-outline-color);
-    padding: 30px 10px 5px 5px;
+    padding: 30px 10px 5px 30px;
+
 }
 
 .body {
     height: 30vh;
     background-color: white;
     display: flex;
+    padding: 30px;
 }
 
 fieldset {
     display: flex;
     border: none;
+    padding: 5px 0px;
 }
 
 .holder {
     display: flex;
     flex-direction: column;
-    margin: 10px 15px 5px;
+    margin: 10px 15px 5px 0px;
 
 }
 
@@ -66,7 +71,25 @@ input:invalid {
 .right-footer {
     height: 40vh;
     background-color: var(--bk-outline-color);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
 
+}
+
+button {
+    background-color: var(--nature-color);
+    color: white;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 10px 25px 0px;
+}
+
+
+
+a {
+    color: var(--nature-color)
 }
 
 .title-case {
