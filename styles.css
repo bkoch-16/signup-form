@@ -38,6 +38,17 @@ body {
     background-color: transparent;
 }
 
+.banner {
+    height: 20vh;
+    width: 40vw;
+    background-color: gray;
+    opacity: 50%;
+    position: relative;
+    top: 30vh;
+}
+
+
+
 .right {
     width: 60vw;
     height: 100vh;
