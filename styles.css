@@ -11,6 +11,7 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 .container {
@@ -71,7 +72,7 @@ body {
 .header {
     height: 30vh;
     background-color: var(--bk-outline-color);
-    padding: 30px 10px 5px 30px;
+    padding: 10% 25% 5px 30px;
     display: flex;
     flex-direction: column;
 
@@ -137,7 +138,7 @@ a {
 }
 
 .title-case {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
 }
 
