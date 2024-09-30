@@ -43,6 +43,8 @@ body {
     height: 30vh;
     background-color: var(--bk-outline-color);
     padding: 30px 10px 5px 30px;
+    display: flex;
+    flex-direction: column;
 
 }
 
