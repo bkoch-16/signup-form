@@ -41,13 +41,25 @@ body {
 .banner {
     height: 20vh;
     width: 40vw;
-    background-color: gray;
-    opacity: 50%;
+    background-color: rgb(128,128,128,0.5);
     position: relative;
     top: 30vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.odin {
+    height: 15vh;
+    width: auto;
+}
 
+.title {
+    font-family: "norse-bold", sans-serif;
+    color: white;
+    font-size: 64px;
+}
 
 .right {
     width: 60vw;
