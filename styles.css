@@ -34,7 +34,6 @@ body {
 .right {
     width: 60vw;
     height: 100vh;
-    background-color: red; /*remove!!*/
     display: flex;
     flex-direction: column;
 }
