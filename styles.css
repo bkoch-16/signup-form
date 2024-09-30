@@ -26,6 +26,9 @@ body {
     background-position: center;
     width: 40vw;
     height: 100vh;
+    display: flex;
+    flex: auto;
+    justify-content: center;
 }
 
 .right {
@@ -94,7 +97,7 @@ button {
     margin: 10px 10px 25px 0px;
 }
 
-.left-footer a {
+.left-footer-text {
     color: white;
 }
 
